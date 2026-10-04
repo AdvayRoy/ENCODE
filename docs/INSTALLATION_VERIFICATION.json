@@ -1,7 +1,7 @@
 {
-  "observed_at": "2026-10-04T18:35:42.764156+00:00",
+  "observed_at": "2026-10-04T19:05:22.960834+00:00",
   "repository": "https://github.com/AdvayRoy/ENCODE",
-  "published_runtime_commit": "b291bb783ba574afa3e4986ba36ecdd2e7c14374",
+  "published_runtime_commit": "39c1aefafd8ac81dcffbb2082a352641a10292e0",
   "marketplace": "encode",
   "marketplace_source": "https://github.com/AdvayRoy/ENCODE.git",
   "plugin_id": "slate-lang@encode",
@@ -9,9 +9,8 @@
   "installed": true,
   "enabled": true,
   "installed_plugin_files_verified": 13,
-  "existing_configuration_preserved": true,
   "runtime_discovery": {
-    "source": "Fresh local app-server skills/list; no model turn created",
+    "source": "Fresh local app-server skills/list; no thread, model turn or browser used",
     "tested_scopes": [
       "workspace",
       "repository"
@@ -43,9 +42,21 @@
   "learning_effectiveness_tested": false,
   "rc1_frozen": false,
   "platform_limit": "Native ChatGPT app UI control rejected by computer-use tool; ChatGPT browser use prohibited by user.",
-  "previous_installation_record": true,
+  "previous_installation_record": false,
   "current_policy_revision": "P15",
-  "current_policies_verified_installed": false,
+  "current_policies_verified_installed": true,
   "p15_model_completions": 0,
-  "live_model_access": "BLOCKED_HTTP_403"
+  "live_model_access": "BLOCKED_HTTP_403",
+  "previous_verified_runtime_commit": "b291bb783ba574afa3e4986ba36ecdd2e7c14374",
+  "installed_plugin_mismatches": 0,
+  "github_source_files_verified": 60,
+  "github_blob_mismatches": 0,
+  "configuration_audit": {
+    "existing_plugins_preserved": true,
+    "existing_marketplaces_preserved": true,
+    "earlier_setup_baseline_difference": [
+      "service_tier"
+    ],
+    "difference_attribution": "Unknown; not changed or reverted by this task. A fresh private checkpoint is used to verify the final refresh."
+  }
 }

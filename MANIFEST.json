@@ -43,8 +43,8 @@
     },
     {
       "path": "docs/INSTALLATION_VERIFICATION.json",
-      "size": 1602,
-      "sha256": "3b7201acb4973e8a49c182a606267a92208a93a7a0010c4878d62e31632d5719"
+      "size": 2092,
+      "sha256": "f7efc8033e919b9abe01ab531b6f17bd5fffab95446bbb9cdfebd3aa2d77e549"
     },
     {
       "path": "language/v0.1/SLATE_v0.1_evaluation_suite.jsonl",
@@ -314,9 +314,10 @@
   ],
   "installed_scope": "verified local desktop/Codex runtime",
   "runtime_skill_discovery_verified": true,
-  "updated_at": "2026-10-04T19:03:30.044717+00:00",
-  "installed_policies_match_current": false,
+  "updated_at": "2026-10-04T19:07:25.325877+00:00",
+  "installed_policies_match_current": true,
   "live_model_access": "BLOCKED_HTTP_403",
   "p15_model_completions": 0,
-  "p15_planned_fixtures": 84
+  "p15_planned_fixtures": 84,
+  "p15_source_commit": "39c1aefafd8ac81dcffbb2082a352641a10292e0"
 }

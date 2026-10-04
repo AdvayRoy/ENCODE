@@ -1,42 +1,29 @@
-# P15 installation refresh
+# Slate Lang P15 setup status
 
-The installation record below describes the previously verified package. P15 source has since changed all three prompt wrappers. Matching the installed package to P15 is pending supported marketplace refresh and read-after-install verification; no current P15 model adherence is claimed.
+The repaired validation candidate is published and installed locally. RC1 remains unfrozen.
 
----
-
-# Slate Lang setup status
-
-Verified on 2026-10-04 under explicit authorization to publish and install.
-
-| Layer | Observed status |
+| Layer | Verified result |
 |---|---|
-| GitHub | Research, PDFs, runtime files, specifications, evaluation history and plugin package published on main |
-| Git marketplace | ENCODE registered from https://github.com/AdvayRoy/ENCODE.git, following main |
-| Plugin | slate-lang@encode, version 0.2.0, installed and enabled |
-| Installed files | All 13 plugin files byte-identical to the published source |
-| Runtime discovery | All three skills enabled with no SLATE loading errors in both workspace and repository scopes |
-| Existing configuration | Existing marketplaces, plugins and unrelated settings preserved |
-| Actual ChatGPT/Voice lesson | Not verified in this setup run |
-| RC1 / learning efficacy | Not established |
+| Source | P15 resolves conflicting Voice B introduction/quiz instructions in all three prompt variants; Text teaching sequence retained |
+| GitHub | P15 source commit 39c1aefafd8ac81dcffbb2082a352641a10292e0; all 60 remote blobs match local source |
+| Plugin | slate-lang@encode 0.2.0, installed and enabled |
+| Installed files | All 13 files byte-identical to the P15 published source |
+| Runtime discovery | slate-lang:slate-text, slate-lang:slate-voice and slate-lang:slate-minimal enabled; no loading errors in workspace/repository scopes |
+| Evidence preservation | 114 historical direct assessments and three manual assessments retained unchanged |
+| Current-policy tests | 84 P15 fixtures planned; zero P15 model completions |
+| Model access | Preflight rejected with HTTP 403, no tutor response and no adherence score |
+| Normal ChatGPT/real Voice | Actual lesson activation, audio/display behavior and learning outcomes unverified |
 
-The runtime reports these exact skill names:
+## How the system loads
 
-- slate-lang:slate-text
-- slate-lang:slate-voice
-- slate-lang:slate-minimal
+GitHub stores and versions the package. The configured local marketplace fetches it into a cached installation. Selecting the actual Slate Lang skill loads its canonical instructions in a supported session. Merely saying SLATE or linking the repository does not prove the instructions were loaded.
 
-## Start using it
+Start a fresh supported session and select Slate Lang's text skill for ordinary tutoring. The verified Codex invocation name is `$slate-lang:slate-text`. The Voice/minimal variants are separate. A normal ChatGPT account/mode still needs its own skill availability and invocation evidence; the local listing cannot certify every surface.
 
-Start a fresh session so newly installed skills are available. In ChatGPT desktop, select the actual Slate Lang entry from the plugin/skill picker, then choose the text skill for ordinary text tutoring. If an already-open app does not refresh its picker, restart it when convenient. In Codex, the discovered text skill can be explicitly invoked as `$slate-lang:slate-text`, followed by a topic and goal. Choose the Voice or minimal skill only when that variant is intended.
+## Configuration and limits
 
-The GitHub marketplace and local cached installation are configured; no full-runtime paste is required on a supported host when the skill is selected. Availability in a normal ChatGPT account/mode remains subject to that surface's controls. This setup verifies the local runtime, not every ChatGPT surface.
+Existing plugins and marketplace entries are preserved. One unrelated setting, service_tier, differs from the private earlier setup baseline; attribution is unknown, and this task does not change or revert it. The final refresh is checked against a fresh private configuration checkpoint. No configuration contents or credentials are exported.
 
-## Remaining validation limits
+The native app's computer-use restriction and the user's prohibition on ChatGPT browser testing were respected. The available external model service rejected access before a response. No patched model behavior, real microphone timing, delayed retention or transfer outcome is inferred from package checks. See INSTALLATION_VERIFICATION.json and ../validation/SLATE_P15_REPAIR_REPORT_v0.2.md.
 
-The computer-use tool rejected native ChatGPT window control. Browser ChatGPT testing remains prohibited. No alternate UI route was used to evade that restriction. Actual text invocation, microphone behavior and Voice display synchronization cannot be certified from local metadata.
-
-Voice P13 X06 still has the new-B visibility violation. P14 Y02–Y05 and other missing final-version coverage remain outstanding. Three manual P14 outputs pass their applicable axes, but no learner answers, delayed retention or transfer outcomes were observed.
-
-See INSTALLATION_VERIFICATION.json for setup evidence and ../validation/SLATE_RUNTIME_VALIDATION_REPORT_v0.2.md plus the manual continuation for the adherence record. The public history retains response text/scoring while omitting private conversation URL metadata; original local evidence is unchanged.
-
-**NOT READY FOR HUMAN TRIAL** — unresolved Voice visibility behavior, incomplete final-version adherence coverage, and unverified actual ChatGPT/Voice invocation.
+**NOT READY FOR HUMAN TRIAL** — P15 live adherence coverage and normal ChatGPT/Voice activation/device behavior remain unverified.
