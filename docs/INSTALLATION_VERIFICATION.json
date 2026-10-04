@@ -1,0 +1,46 @@
+{
+  "observed_at": "2026-10-04T18:35:42.764156+00:00",
+  "repository": "https://github.com/AdvayRoy/ENCODE",
+  "published_runtime_commit": "b291bb783ba574afa3e4986ba36ecdd2e7c14374",
+  "marketplace": "encode",
+  "marketplace_source": "https://github.com/AdvayRoy/ENCODE.git",
+  "plugin_id": "slate-lang@encode",
+  "version": "0.2.0",
+  "installed": true,
+  "enabled": true,
+  "installed_plugin_files_verified": 13,
+  "existing_configuration_preserved": true,
+  "runtime_discovery": {
+    "source": "Fresh local app-server skills/list; no model turn created",
+    "tested_scopes": [
+      "workspace",
+      "repository"
+    ],
+    "skills": [
+      {
+        "name": "slate-lang:slate-minimal",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "slate-lang@encode"
+      },
+      {
+        "name": "slate-lang:slate-text",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "slate-lang@encode"
+      },
+      {
+        "name": "slate-lang:slate-voice",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "slate-lang@encode"
+      }
+    ],
+    "slate_loading_errors": 0
+  },
+  "normal_chatgpt_model_invocation_verified": false,
+  "real_voice_tested": false,
+  "learning_effectiveness_tested": false,
+  "rc1_frozen": false,
+  "platform_limit": "Native ChatGPT app UI control rejected by computer-use tool; ChatGPT browser use prohibited by user."
+}

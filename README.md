@@ -2,11 +2,15 @@
 
 **Slate Lang** is the installable skills plugin for the existing SLATE v0.2 teaching protocol. ENCODE is the learning system; SLATE supplies the tutoring instructions. No app or server is required for these instructions.
 
+**Published and locally installed:** Slate Lang 0.2.0 is enabled, with all three skills discovered by the local runtime.
+
 **Release status: validation hold; RC1 is not frozen.** This is not evidence that SLATE improves learning.
 
 ## Use the installed plugin
 
 After installation, start a new ChatGPT desktop/Codex session and select **Slate Lang**, then its **slate-text** skill for text tutoring. Ask for a topic normally, such as “Teach me Java arrays from zero.” You do not need to paste the full runtime when the installed skill is actually loaded.
+
+In Codex, the verified full text skill name is `$slate-lang:slate-text`.
 
 Use **slate-voice** only for an explicit Voice session and **slate-minimal** only for the minimal variant. Keep variants separate. Exact account/mode availability and real Voice behavior require host evidence; installation alone is not proof of a successful lesson.
 

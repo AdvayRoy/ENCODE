@@ -1,8 +1,8 @@
 {
   "created_at": "2026-10-04T18:26:46.291185+00:00",
   "status": "PUBLISHED_VALIDATION_CANDIDATE; NOT_RC1",
-  "github_uploaded": "pending_verification",
-  "installed": "pending_verification",
+  "github_uploaded": true,
+  "installed": true,
   "host_activation_verified": false,
   "runtime_changed": false,
   "educational_effectiveness": "NOT_TESTED",
@@ -32,9 +32,19 @@
       "sha256": "6e95b03a3bfb207ac7bbe6fa8091147e2f9d758ff66ed0f3fd2047fc9317c356"
     },
     {
+      "path": "AGENTS.md",
+      "size": 2256,
+      "sha256": "26acd900546c53c8e66454d912dbbc716e9f6b694ffe2f25fc0f20e47630c1d4"
+    },
+    {
       "path": "README.md",
-      "size": 3460,
-      "sha256": "64ac6428525d97bb67dd4125bb3f489dbb68bebd2b518bad73067dea9ff80c2c"
+      "size": 3656,
+      "sha256": "17e9f41b2ddf29ec9aa196823a2b3a3ba3e039d2807c6c6c49799d70dfc9e907"
+    },
+    {
+      "path": "docs/INSTALLATION_VERIFICATION.json",
+      "size": 1405,
+      "sha256": "f46f5ea4ad4c347f080990c1c12a03fc5b1f2cfadd14a730535a6c6b027f7101"
     },
     {
       "path": "language/v0.1/SLATE_v0.1_evaluation_suite.jsonl",
@@ -281,5 +291,7 @@
       "size": 1749184,
       "sha256": "f85a6d04a09bdd0df7bab62bc4f24ead0d2a2beea0dec569e37034187632a47d"
     }
-  ]
+  ],
+  "installed_scope": "verified local desktop/Codex runtime",
+  "runtime_skill_discovery_verified": true
 }
