@@ -1,8 +1,8 @@
 # SLATE Voice runtime v0.2
 
-**Manual continuation update (2026-10-04):** P14 now has three user-supplied PASS responses, including two beginner first-turn-style outputs. Actual policy receipt, fresh-chat execution and model identity remain unverified. RC1 remains on hold. See `SLATE_RUNTIME_MANUAL_STATUS_v0.2.md` and `SLATE_SYSTEM_DIAGNOSIS_v0.2.md`; direct-capture counts below remain historical.
+**Manual continuation update (2026-10-04):** P14 now has three user-supplied PASS responses, including two beginner first-turn-style outputs. Actual policy receipt, fresh-chat execution and model identity remain unverified. RC1 remains on hold. See `SLATE_RUNTIME_MANUAL_STATUS_v0.2.md`; direct-capture counts below remain historical.
 
-**Current status (2026-10-04): VALIDATION HOLD — RC1 NOT FROZEN.** Current prompts: full P10, Voice P13, minimal P14. See `SLATE_RUNTIME_VALIDATION_REPORT_v0.2.md` and `SLATE_RUNTIME_CHANGELOG_v0.2.md`. P14 has three manually supplied PASS responses; broader final-version coverage is incomplete and Voice has an unresolved new-structure visibility failure. This document specifies intended behavior, not demonstrated learning efficacy.
+**Current status (2026-10-04): VALIDATION HOLD — RC1 NOT FROZEN.** Current prompts: P15 full, Voice and minimal. P15 resolves the recorded conflict between the beginner-array sequence and per-structure Voice confirmation. Its model behavior is unverified: the available live-model service rejected the request with HTTP 403 before producing a response. Prior ChatGPT and manual outputs are historical evidence for their original snapshots. No learning efficacy or current-version reliability claim is made.
 
 Same semantic/evidence contract as Text, different rendering. Spoken information is transient. A prompt can request short turns and yielding; it cannot enforce microphone timing, reliably observe silence duration, or guarantee interruption behavior. This release tests typed Voice-role decisions separately from real audio/device usability.
 
@@ -35,7 +35,7 @@ Orient briefly -> one relation and mapped example -> one main question -> stop s
 
 1. Detect precision requirements: new code, multistep equations, graph, detailed table/state. Distinguish a visible task from a shown answer.
 2. If the interface supports accessible text, prepare the exact snippet with stable line/row labels. If support is uncertain, ask whether the user can access text; do not claim a panel has appeared.
-3. Establish shared reference once for this snippet: “Can you see the three-line snippet beginning `int total = 0;`?” If unavailable, use text to prepare it before resuming Voice, or offer suitable verbal content and wait.
+3. Establish shared reference separately for each new or changed snippet, ask only visibility, and end before manipulating that snippet: “Can you see the three-line snippet beginning `int total = 0;`?” If unavailable, use text to prepare it before resuming Voice, or offer suitable verbal content and wait.
 4. Speak against that stable snippet: “At the first condition check…” Do not recite punctuation as the execution model. Ask one prediction, leaving its target state unfilled.
 5. On modification, persist the new exact code before referring to it; indicate the changed line. Recheck shared reference when the actual artifact changes/visibility is lost, not before every ordinary turn.
 6. Collect the learner's actual answer. If recognition altered precision, clarify. A later code-generation goal still needs the learner to write code and check it under declared tools.
@@ -69,3 +69,7 @@ P3 still sometimes asked for the classification or denominator just supplied. Th
 ## Live-test patch P5
 
 A separate boot/topic conversation regressed to a solved array selection framed as recall. The final prompt specifies array A for the mapped model and array B for the check, including when the topic arrives after boot. The generic without-looking-back suggestion was removed from the full boot. Earlier chat accessibility remains an evidence limitation; the failed L01 turn is retained.
+
+## P15 precedence repair
+
+Confirmation of A never confirms a new B. The beginner-array sequence now spans separate turns: show A and request visibility; after confirmation teach A and show B with only a B visibility request; after B confirmation ask one unsolved component task. This applies in the Voice boot and the Voice modifiers of full/minimal. Unchanged confirmed code needs no repeated display check. This repairs the instruction conflict; it is not an observed live-model pass.

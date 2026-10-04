@@ -36,6 +36,8 @@ for name,filename in names.items():
     require(sha(policy)==manifest['canonical_policies'][name]['sha256'],'prompt snapshot hash changed: '+name)
 require(not any(p.name in {'mcp.json','.mcp.json','.app.json'} for p in plugin.rglob('*')),'unexpected external service configuration')
 require(not any(p.suffix in {'.py','.js','.ts','.sh'} for p in plugin.rglob('*')),'unexpected executable code in the tutoring plugin')
+for reference in (plugin/'references').iterdir():
+    require(reference.read_bytes()==(ROOT/'runtime/v0.2'/reference.name).read_bytes(),'supporting reference diverged: '+reference.name)
 
 for item in manifest['files']:
     path=(ROOT/item['path']).resolve()
@@ -58,5 +60,19 @@ for path in (ROOT/'validation/evidence').glob('*.jsonl'):
 with (ROOT/'validation/evidence/SLATE_RUNTIME_MANUAL_SCORES_v0.2.csv').open() as stream:
     require(len(list(csv.DictReader(stream)))==3,'manual CSV count mismatch')
 read_jsonl('validation/SLATE_RUNTIME_RC_RETEST_SUITE_v0.2.jsonl')
+repair=read_json('validation/SLATE_P15_PATCH_RECORD.json')
+for item in repair['preserved_evidence']:
+    require(sha((ROOT/item['path']).read_bytes())==item['sha256'],'historical evidence changed: '+item['path'])
+planned=read_jsonl('validation/SLATE_P15_RETEST_SUITE_v0.2.jsonl')
+require(len(planned)==84 and len({r['id'] for r in planned})==84,'P15 planned fixture inventory changed')
+kinds={'full':'slate-text','voice_boot':'slate-voice','minimal':'slate-minimal'}
+required_tags={'zero_knowledge','empty_acknowledgment','repeatedly_wrong','confidently_wrong','hint_dependent','direct_answer','wording_without_transfer','syntax_correct_logic','concept_error_correct_syntax','interruption','topic_drift','overlong_explanation','multiple_questions','answer_leakage','premature_compression','decompression','exact_terminology','normal_exam_language'}
+for kind,name in kinds.items():
+    cases=[r for r in planned if r['prompt_kind']==kind]
+    require({r['domain'] for r in cases}=={'Java','Math','Economics','Business'},'P15 domain coverage plan incomplete: '+kind)
+    require(required_tags<=set().union(*(set(r['tags']) for r in cases)),'P15 adversarial coverage plan incomplete: '+kind)
+    require(all(r['policy_sha256']==manifest['canonical_policies'][name]['sha256'] and r['execution_status']=='PLANNED_NOT_EXECUTED' for r in cases),'P15 fixture snapshot or execution status mismatch')
+access=read_json('validation/evidence/SLATE_P15_ACCESS_ATTEMPT.json')
+require(access['http_status']==403 and access['model_completion'] is None and access['adherence_assessment']=='NOT_ASSESSED','blocked access relabeled as model evidence')
 require('NOT READY FOR HUMAN TRIAL' in (ROOT/'README.md').read_text(),'release limitation missing')
-print(json.dumps({'package_contract':'PASS','canonical_policies':3,'preserved_assessments':114,'manual_assessments':3,'axes':16,'learning_effectiveness':'NOT_TESTED','rc1_frozen':False}))
+print(json.dumps({'package_contract':'PASS','canonical_policies':3,'preserved_assessments':114,'manual_assessments':3,'axes':16,'p15_planned_cases':len(planned),'p15_model_completions':0,'model_access':'BLOCKED_HTTP_403','learning_effectiveness':'NOT_TESTED','rc1_frozen':False}))

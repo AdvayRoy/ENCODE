@@ -20,4 +20,4 @@ Inspect before editing. Keep changes surgical. No new application, teaching feat
 
 Separate package integrity, remote publication, installation, enabled state, runtime skill discovery, actual model invocation, Voice/device behavior and human learning efficacy. An installed skill listing is not a live lesson; good tutoring is not proof of skill loading or durable learning.
 
-RC1 remains on hold until the existing final-version gate passes. Preserve Voice X06 and incomplete coverage as explicit unresolved items. Do not claim SLATE improves learning or label a validation candidate RC1.
+RC1 remains on hold until the existing final-version gate passes. Retain X06 as historical failure evidence. P15 repairs its instruction conflict but does not count as an observed model pass; preserve incomplete current-version coverage as an explicit unresolved gate. Do not claim SLATE improves learning or label a validation candidate RC1.

@@ -1,0 +1,72 @@
+{
+  "patch": "P15",
+  "recorded_at": "2026-10-04T19:03:30.022479+00:00",
+  "trigger": "P13 X06 and earlier per-structure visibility failures",
+  "responsible_conflict": "BEGINNER ARRAY TURN introduced B and asked a component immediately; the visibility guard required B-specific confirmation first.",
+  "change": "Explicit A visibility -> A model and B visibility -> unsolved B component sequence in Voice; matching Voice override in full/minimal; no Text sequence change.",
+  "before_policy_hashes": {
+    "full": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5",
+    "voice_boot": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc",
+    "minimal": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+  },
+  "after_policy_hashes": {
+    "full": "cb35e3277d133253e1973b41d3ebee559dc7c2007e5adb695da25a1b7a7e36e3",
+    "voice_boot": "4ce8017b0609b60b0d5f76738475776af67bd58602c28208f5fbed72bfcf82b0",
+    "minimal": "619805666c538dc9a69a6d38d9a9193285f5bf58605cc537292387c91f7a2ee1"
+  },
+  "preserved_evidence": [
+    {
+      "path": "validation/evidence/PUBLICATION_NOTES.json",
+      "sha256": "6d644243112de9f9e2cfa0b033c9e28a06c30d58f69ffb9f68507533b7994f8a"
+    },
+    {
+      "path": "validation/evidence/SLATE_MANUAL_RESPONSE_01_Y00.md",
+      "sha256": "981a0e7241ac40b6e8ebdafccb55c8b0655c091102d95d751d4d2a1cdc4fdf21"
+    },
+    {
+      "path": "validation/evidence/SLATE_MANUAL_RESPONSE_02_ACK.md",
+      "sha256": "5863581c9982bd27403857e48f72571e8a4e12c4617af86af8fbd79baa26d890"
+    },
+    {
+      "path": "validation/evidence/SLATE_MANUAL_RESPONSE_03_Y01.md",
+      "sha256": "a3b940d1913959a0721120049f615d82cbb51943347a45f64afb7da606b39e6f"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_ADHERENCE_SCORES_v0.2.csv",
+      "sha256": "9d8d4fe49d9ed2ea7eb43863fee308db817cab59afe29e895672b1136965786e"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_EVAL_v0.2.jsonl",
+      "sha256": "3a23f6002c62723e308aaf3fa0f6c94cc5e9a53331a05628d710109d915fb0e2"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MANUAL_EVAL_v0.2.jsonl",
+      "sha256": "1a2bca7f8b842592888e80b596fedbcc1bf8c6ab08cc64a526eddd8d6a12febf"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MANUAL_SCORES_v0.2.csv",
+      "sha256": "24e73299691d0a3fed6d8710ad0eded12cfd9a0f41389131c85526b6c4070bf7"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MANUAL_SUITE_v0.2.jsonl",
+      "sha256": "bc0c8e7be73a0c076322a2967197098e73efca156ef6a29fcc2928bfb7e8bdd1"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MECHANICAL_CHECKS_v0.2.json",
+      "sha256": "348ae6626727f762b7258e2cf4ff61814651a40462ba2a94c1c5aad432d04fd7"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_PACKET_CHECKS_v0.2.json",
+      "sha256": "911b29f373dfb0e3516f1572239ef36280154e6fc03d8718680d21761d6e3e28"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_VALIDATION_v0.2.jsonl",
+      "sha256": "f85a6d04a09bdd0df7bab62bc4f24ead0d2a2beea0dec569e37034187632a47d"
+    }
+  ],
+  "runtime_source_changed": true,
+  "p15_model_completions": 0,
+  "adherence_effect": "UNVERIFIED",
+  "educational_effectiveness": "NOT_TESTED",
+  "rc1_frozen": false
+}

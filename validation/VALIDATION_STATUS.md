@@ -1,11 +1,9 @@
-# Validation candidate status
+# Validation candidate status — P15
 
-Runtime bytes: full P10, Voice P13, minimal P14. RC1 is not frozen.
+Canonical full, Voice and minimal prompts contain the P15 precedence repair. The source conflict behind P13 X06 is resolved in the instructions. Current emitted model behavior is unverified, so RC1 remains unfrozen.
 
-The preserved direct evidence contains 40 historical responses and 74 retests. A separate manual ledger now contains 3 user-supplied responses, all PASS on applicable axes. Untriggered PASS entries demonstrate no capability. Actual prompt receipt, model identity and fresh-chat execution are unverified for these manual outputs. The latest duplicate repost is not another run.
+The 114 directly captured historical assessments and three user-supplied assessments are preserved. None are current P15 completions. The available model-service access preflight returned HTTP 403 and no tutor output; it is recorded as blocked, not an adherence failure or pass. Eighty-four current-policy-hash fixtures are planned, not executed.
 
-Remaining gates: P14 Y02–Y05; Voice P13 X06 plus nearby regressions; missing final-version domain/adversarial coverage; installed-plugin load and device behavior. No efficacy, retention or transfer claim is made.
+Local publication, installation and skill discovery are independently checked. They do not establish normal ChatGPT lesson activation or real Voice display/audio behavior. No learning efficacy, retention or transfer claim is made. See `SLATE_P15_REPAIR_REPORT_v0.2.md` and `SLATE_P15_PATCH_RECORD.json`.
 
-All canonical prompt hashes and embedded skill bodies are checked mechanically. Package checks do not establish host installation or model adherence.
-
-**NOT READY FOR HUMAN TRIAL**
+**NOT READY FOR HUMAN TRIAL** — missing P15 live adherence coverage and unverified normal ChatGPT/Voice activation/device behavior.

@@ -1,3 +1,13 @@
+# Current snapshot addendum: P15, 2026-10-04
+
+All three canonical policies now carry P15. P15 repairs the specific instruction conflict behind P13 X06; it has not produced a live ChatGPT retest. The available model-service preflight was rejected with HTTP 403 before a tutor response. No access failure or planned fixture is scored PASS/PARTIAL/FAIL. Eighty-four current-hash cases cover three boots, four domains and the required adversarial situations, but are not executed.
+
+The original report below describes pre-P15 snapshots and retains its actual observed responses, failures and limitations. Its terms “current” and “final” refer to that historical run, not P15. No prior-version output certifies P15. Actual host text/Voice invocation, Voice device behavior and learning efficacy are unverified. See `SLATE_P15_REPAIR_REPORT_v0.2.md`.
+
+**NOT READY FOR HUMAN TRIAL** — P15 live adherence and normal ChatGPT/Voice activation/device behavior remain unverified.
+
+---
+
 # SLATE Runtime v0.2 — final retest validation report
 
 **Manual continuation update (2026-10-04):** P14 now has three user-supplied PASS responses, including two beginner first-turn-style outputs. Actual policy receipt, fresh-chat execution and model identity remain unverified. RC1 remains on hold. See `SLATE_RUNTIME_MANUAL_STATUS_v0.2.md` and `SLATE_SYSTEM_DIAGNOSIS_v0.2.md`; direct-capture counts below remain historical.

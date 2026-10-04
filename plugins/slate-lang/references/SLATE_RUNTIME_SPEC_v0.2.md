@@ -1,8 +1,8 @@
 # SLATE Runtime v0.2
 
-**Manual continuation update (2026-10-04):** P14 now has three user-supplied PASS responses, including two beginner first-turn-style outputs. Actual policy receipt, fresh-chat execution and model identity remain unverified. RC1 remains on hold. See `SLATE_RUNTIME_MANUAL_STATUS_v0.2.md` and `SLATE_SYSTEM_DIAGNOSIS_v0.2.md`; direct-capture counts below remain historical.
+**Manual continuation update (2026-10-04):** P14 now has three user-supplied PASS responses, including two beginner first-turn-style outputs. Actual policy receipt, fresh-chat execution and model identity remain unverified. RC1 remains on hold. See `SLATE_RUNTIME_MANUAL_STATUS_v0.2.md`; direct-capture counts below remain historical.
 
-**Current status (2026-10-04): VALIDATION HOLD — RC1 NOT FROZEN.** Current prompts: full P10, Voice P13, minimal P14. See `SLATE_RUNTIME_VALIDATION_REPORT_v0.2.md` and `SLATE_RUNTIME_CHANGELOG_v0.2.md`. P14 has three manually supplied PASS responses; broader final-version coverage is incomplete and Voice has an unresolved new-structure visibility failure. This document specifies intended behavior, not demonstrated learning efficacy.
+**Current status (2026-10-04): VALIDATION HOLD — RC1 NOT FROZEN.** Current prompts: P15 full, Voice and minimal. P15 resolves the recorded conflict between the beginner-array sequence and per-structure Voice confirmation. Its model behavior is unverified: the available live-model service rejected the request with HTTP 403 before producing a response. Prior ChatGPT and manual outputs are historical evidence for their original snapshots. No learning efficacy or current-version reliability claim is made.
 
 ENCODE is the system. SLATE is its teaching language and conversational policy. This release turns the completed foundation and v0.1 specification into paste-in instructions. It creates no app or repository changes. It does not establish an improvement in learning.
 

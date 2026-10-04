@@ -1,3 +1,9 @@
+# Current repair update: P15, 2026-10-04
+
+P15 resolves the conflicting Voice array sequence in all three boots: A-specific confirmation, A model with B-specific confirmation, then an unsolved B component task. Text sequencing is unchanged. No states/features/app were added. Supporting references and wrappers are synchronized. There are zero P15 model completions: the access preflight was rejected with HTTP 403. The 84 current-hash regression fixtures remain planned. Historical evidence and the P1–P14 changelog below are unchanged in meaning. See `SLATE_P15_REPAIR_REPORT_v0.2.md` and `SLATE_P15_PATCH_RECORD.json`. RC1 is not frozen.
+
+---
+
 # SLATE v0.2 validation changelog
 
 **Manual continuation update (2026-10-04):** P14 now has three user-supplied PASS responses, including two beginner first-turn-style outputs. Actual policy receipt, fresh-chat execution and model identity remain unverified. RC1 remains on hold. See `SLATE_RUNTIME_MANUAL_STATUS_v0.2.md` and `SLATE_SYSTEM_DIAGNOSIS_v0.2.md`; direct-capture counts below remain historical.

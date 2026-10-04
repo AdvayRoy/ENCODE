@@ -1,0 +1,18 @@
+{
+  "record_type": "blocked_model_access",
+  "id": "P15-access-preflight-X06",
+  "policy_snapshot": "P13/voice_boot",
+  "policy_sha256": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc",
+  "tool": "mcp__zen_model_router__ask_model",
+  "provider": "OpenCode Zen",
+  "requested_model": "muse",
+  "model_id": "muse-spark-1.3-contributor-free",
+  "max_tokens": 1800,
+  "temperature": 0,
+  "http_status": 403,
+  "response": "OpenCode Zen returned HTTP 403 for muse-spark-1.3-contributor-free: OpenCode's free tier can only be used from within OpenCode",
+  "model_completion": null,
+  "adherence_assessment": "NOT_ASSESSED",
+  "learning_outcome": "NOT_TESTED",
+  "limitation": "Access preflight used P13, before P15. P15 requests were not dispatched after the service rejection. This service would not establish ChatGPT/Voice host behavior even if it returned a model completion."
+}

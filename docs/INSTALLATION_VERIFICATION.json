@@ -42,5 +42,10 @@
   "real_voice_tested": false,
   "learning_effectiveness_tested": false,
   "rc1_frozen": false,
-  "platform_limit": "Native ChatGPT app UI control rejected by computer-use tool; ChatGPT browser use prohibited by user."
+  "platform_limit": "Native ChatGPT app UI control rejected by computer-use tool; ChatGPT browser use prohibited by user.",
+  "previous_installation_record": true,
+  "current_policy_revision": "P15",
+  "current_policies_verified_installed": false,
+  "p15_model_completions": 0,
+  "live_model_access": "BLOCKED_HTTP_403"
 }

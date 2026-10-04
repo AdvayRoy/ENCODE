@@ -4,20 +4,20 @@
   "github_uploaded": true,
   "installed": true,
   "host_activation_verified": false,
-  "runtime_changed": false,
+  "runtime_changed": true,
   "educational_effectiveness": "NOT_TESTED",
   "canonical_policies": {
     "slate-text": {
-      "revision": "P10/full",
-      "sha256": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5"
+      "revision": "P15/full",
+      "sha256": "cb35e3277d133253e1973b41d3ebee559dc7c2007e5adb695da25a1b7a7e36e3"
     },
     "slate-voice": {
-      "revision": "P13/voice",
-      "sha256": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc"
+      "revision": "P15/voice_boot",
+      "sha256": "4ce8017b0609b60b0d5f76738475776af67bd58602c28208f5fbed72bfcf82b0"
     },
     "slate-minimal": {
-      "revision": "P14/minimal",
-      "sha256": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+      "revision": "P15/minimal",
+      "sha256": "619805666c538dc9a69a6d38d9a9193285f5bf58605cc537292387c91f7a2ee1"
     }
   },
   "files": [
@@ -33,18 +33,18 @@
     },
     {
       "path": "AGENTS.md",
-      "size": 2256,
-      "sha256": "26acd900546c53c8e66454d912dbbc716e9f6b694ffe2f25fc0f20e47630c1d4"
+      "size": 2386,
+      "sha256": "a1ce59473313d1f538e77737bea5c63107e053a7140caee75a27678d19000375"
     },
     {
       "path": "README.md",
-      "size": 3656,
-      "sha256": "17e9f41b2ddf29ec9aa196823a2b3a3ba3e039d2807c6c6c49799d70dfc9e907"
+      "size": 4117,
+      "sha256": "84bdf52f662907caa5313e7932436e0af812c15c632d602a87363945f2c2f0cb"
     },
     {
       "path": "docs/INSTALLATION_VERIFICATION.json",
-      "size": 1405,
-      "sha256": "f46f5ea4ad4c347f080990c1c12a03fc5b1f2cfadd14a730535a6c6b027f7101"
+      "size": 1602,
+      "sha256": "3b7201acb4973e8a49c182a606267a92208a93a7a0010c4878d62e31632d5719"
     },
     {
       "path": "language/v0.1/SLATE_v0.1_evaluation_suite.jsonl",
@@ -73,58 +73,58 @@
     },
     {
       "path": "plugins/slate-lang/references/SLATE_MINIMAL_BOOT_v0.2.txt",
-      "size": 2206,
-      "sha256": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+      "size": 2833,
+      "sha256": "619805666c538dc9a69a6d38d9a9193285f5bf58605cc537292387c91f7a2ee1"
     },
     {
       "path": "plugins/slate-lang/references/SLATE_REPAIR_PROTOCOL_v0.2.md",
-      "size": 9951,
-      "sha256": "72e6b98a5bd6b2b651a63987e21980b1896cba747afcbeec1c8ffa1b9b5ee38c"
+      "size": 9984,
+      "sha256": "5ad5f93a3e6c8183d0352296ed4f4c21844bf549ae4a5be6fd3f620830f2b662"
     },
     {
       "path": "plugins/slate-lang/references/SLATE_RUNTIME_PROMPT_v0.2.txt",
-      "size": 14042,
-      "sha256": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5"
+      "size": 14348,
+      "sha256": "cb35e3277d133253e1973b41d3ebee559dc7c2007e5adb695da25a1b7a7e36e3"
     },
     {
       "path": "plugins/slate-lang/references/SLATE_RUNTIME_SPEC_v0.2.md",
-      "size": 20534,
-      "sha256": "41f54d887bd975e7b5021de93ae0614f19c0b145431255c7798f91b6c7f6e9f1"
+      "size": 20567,
+      "sha256": "084447614f760986c9bce48ed58418d2ac96f462c1f2e7f8aa34477eba9737ed"
     },
     {
       "path": "plugins/slate-lang/references/SLATE_STATE_MACHINE_v0.2.md",
-      "size": 9300,
-      "sha256": "2ea1530626b5d10a58a0ac5770999b9f3aee09e2f07b7a37526686d9c9ed3b28"
+      "size": 9490,
+      "sha256": "39622c6fc21308b585752416bffe9f942c9e5dcf5a79e706cf28364ef7a13a32"
     },
     {
       "path": "plugins/slate-lang/references/SLATE_TEXT_RUNTIME_v0.2.md",
-      "size": 7605,
-      "sha256": "ad1f7e9ee1d18dca3b2da3f007634f50ce321c55bf376b9e504e86c126e24edf"
+      "size": 7638,
+      "sha256": "c199960179bf92156ade9b4b91132b138d49edcbbeea291dce32f47589622d10"
     },
     {
       "path": "plugins/slate-lang/references/SLATE_VOICE_BOOT_v0.2.txt",
-      "size": 9156,
-      "sha256": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc"
+      "size": 9698,
+      "sha256": "4ce8017b0609b60b0d5f76738475776af67bd58602c28208f5fbed72bfcf82b0"
     },
     {
       "path": "plugins/slate-lang/references/SLATE_VOICE_RUNTIME_v0.2.md",
-      "size": 8621,
-      "sha256": "2409cb606471d9fabde275d288925aead4af6f6c21c515b07f28ae46feff53e1"
+      "size": 9226,
+      "sha256": "ecf16e7bc6cbe370d70f6ec6a25468dc8f320695a06dca2db1f4e56d47de0c62"
     },
     {
       "path": "plugins/slate-lang/skills/slate-minimal/SKILL.md",
-      "size": 2429,
-      "sha256": "14c2e1f13738aedfd2584c3f9d595898d3e7e9ad517af24a4d39d3ec36a69914"
+      "size": 3056,
+      "sha256": "5c9f74bd7606f65a86752ce92148ba1f14af0d06f35f4d57fdbb974c28513778"
     },
     {
       "path": "plugins/slate-lang/skills/slate-text/SKILL.md",
-      "size": 14293,
-      "sha256": "a9511281d623c150ff6365e8ceeb11a6f747d1ffb839e703303cf728e8dbc17a"
+      "size": 14599,
+      "sha256": "75c1f8eaf488dd52776d4524d370382b0d5c5b625532d0607c9cbf1ddb4e60fd"
     },
     {
       "path": "plugins/slate-lang/skills/slate-voice/SKILL.md",
-      "size": 9403,
-      "sha256": "50c31fa0a11992b1353548f3acf9dd8ac91ec0ba8c20c421372806d9b046248e"
+      "size": 9945,
+      "sha256": "9af1004f2259aeb252de0b9541d332522d52e0db654faaf6f6d87c6ec847bb42"
     },
     {
       "path": "research/ENCODE_scientific_foundation_v0.md",
@@ -158,58 +158,73 @@
     },
     {
       "path": "runtime/v0.2/SLATE_DEMOS_v0.2.md",
-      "size": 19439,
-      "sha256": "2da3badef29f3af4157fee7e87305e8bc5a83e7b9a1120b805187519f63bf0d1"
+      "size": 19472,
+      "sha256": "3a7e4588d11d8ba5d4bf62143d29b307cc6bd71824578b1ecd73a8e55e8bf271"
     },
     {
       "path": "runtime/v0.2/SLATE_MINIMAL_BOOT_v0.2.txt",
-      "size": 2206,
-      "sha256": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+      "size": 2833,
+      "sha256": "619805666c538dc9a69a6d38d9a9193285f5bf58605cc537292387c91f7a2ee1"
     },
     {
       "path": "runtime/v0.2/SLATE_REPAIR_PROTOCOL_v0.2.md",
-      "size": 9951,
-      "sha256": "72e6b98a5bd6b2b651a63987e21980b1896cba747afcbeec1c8ffa1b9b5ee38c"
+      "size": 9984,
+      "sha256": "5ad5f93a3e6c8183d0352296ed4f4c21844bf549ae4a5be6fd3f620830f2b662"
     },
     {
       "path": "runtime/v0.2/SLATE_RUNTIME_PROMPT_v0.2.txt",
-      "size": 14042,
-      "sha256": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5"
+      "size": 14348,
+      "sha256": "cb35e3277d133253e1973b41d3ebee559dc7c2007e5adb695da25a1b7a7e36e3"
     },
     {
       "path": "runtime/v0.2/SLATE_RUNTIME_SPEC_v0.2.md",
-      "size": 20534,
-      "sha256": "41f54d887bd975e7b5021de93ae0614f19c0b145431255c7798f91b6c7f6e9f1"
+      "size": 20567,
+      "sha256": "084447614f760986c9bce48ed58418d2ac96f462c1f2e7f8aa34477eba9737ed"
     },
     {
       "path": "runtime/v0.2/SLATE_STATE_MACHINE_v0.2.md",
-      "size": 9300,
-      "sha256": "2ea1530626b5d10a58a0ac5770999b9f3aee09e2f07b7a37526686d9c9ed3b28"
+      "size": 9490,
+      "sha256": "39622c6fc21308b585752416bffe9f942c9e5dcf5a79e706cf28364ef7a13a32"
     },
     {
       "path": "runtime/v0.2/SLATE_TEXT_RUNTIME_v0.2.md",
-      "size": 7605,
-      "sha256": "ad1f7e9ee1d18dca3b2da3f007634f50ce321c55bf376b9e504e86c126e24edf"
+      "size": 7638,
+      "sha256": "c199960179bf92156ade9b4b91132b138d49edcbbeea291dce32f47589622d10"
     },
     {
       "path": "runtime/v0.2/SLATE_VOICE_BOOT_v0.2.txt",
-      "size": 9156,
-      "sha256": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc"
+      "size": 9698,
+      "sha256": "4ce8017b0609b60b0d5f76738475776af67bd58602c28208f5fbed72bfcf82b0"
     },
     {
       "path": "runtime/v0.2/SLATE_VOICE_RUNTIME_v0.2.md",
-      "size": 8621,
-      "sha256": "2409cb606471d9fabde275d288925aead4af6f6c21c515b07f28ae46feff53e1"
+      "size": 9226,
+      "sha256": "ecf16e7bc6cbe370d70f6ec6a25468dc8f320695a06dca2db1f4e56d47de0c62"
     },
     {
       "path": "scripts/validate_package.py",
-      "size": 4403,
-      "sha256": "dfb698461b3b1f5d9d3cbe53f810d547b91e5f26fca0e001a2e71f954de42cbd"
+      "size": 6314,
+      "sha256": "0399fb3cdd033a5e6655bcd00693150b6107c35896f4a113d46df4118ba4a8bb"
+    },
+    {
+      "path": "validation/SLATE_P15_PATCH_RECORD.json",
+      "size": 3248,
+      "sha256": "f97aac17991e0e01445d6965c16e8d20dcebdc8439454511815465c2b490e2b1"
+    },
+    {
+      "path": "validation/SLATE_P15_REPAIR_REPORT_v0.2.md",
+      "size": 2989,
+      "sha256": "eb3a7284485816aadf6a02d39c1545f22edf8edbf46794cf11b03490e37f2204"
+    },
+    {
+      "path": "validation/SLATE_P15_RETEST_SUITE_v0.2.jsonl",
+      "size": 63717,
+      "sha256": "4214293970c7db0a430e951ae592c81986b5798c8d25b0ad49becf46c7283aad"
     },
     {
       "path": "validation/SLATE_RUNTIME_CHANGELOG_v0.2.md",
-      "size": 5488,
-      "sha256": "5ce35cd24246d571e6c3ab931ecb5869d8ed1aa279dd6f7800a4f1004d68fce3"
+      "size": 6136,
+      "sha256": "f6e86d965f393d79188626d245239d8ae4d57f31e18801877d6387adf0f95d0a"
     },
     {
       "path": "validation/SLATE_RUNTIME_MANUAL_STATUS_v0.2.md",
@@ -223,13 +238,13 @@
     },
     {
       "path": "validation/SLATE_RUNTIME_VALIDATION_REPORT_v0.2.md",
-      "size": 15461,
-      "sha256": "53cade01139c1b5cd2e825494a8c10f84d48d1a4ce16edc774415124c1409733"
+      "size": 16445,
+      "sha256": "86dc1b41357060ec6867072a458ff8133929553a44b506f0240a9f4018aee9ed"
     },
     {
       "path": "validation/VALIDATION_STATUS.md",
-      "size": 875,
-      "sha256": "e238e523e58ba753499a492a2e0524caed09445c27f71c1275181f8d24a323fd"
+      "size": 1043,
+      "sha256": "11a08cfba06d1b54ea0807ae23aadc72d957536a349cb6d390a578a64f2f29be"
     },
     {
       "path": "validation/evidence/PUBLICATION_NOTES.json",
@@ -250,6 +265,11 @@
       "path": "validation/evidence/SLATE_MANUAL_RESPONSE_03_Y01.md",
       "size": 427,
       "sha256": "a3b940d1913959a0721120049f615d82cbb51943347a45f64afb7da606b39e6f"
+    },
+    {
+      "path": "validation/evidence/SLATE_P15_ACCESS_ATTEMPT.json",
+      "size": 895,
+      "sha256": "00d59745827a67add51e9cc1bb64561321b752ac84e92094650a3fb6087e8346"
     },
     {
       "path": "validation/evidence/SLATE_RUNTIME_ADHERENCE_SCORES_v0.2.csv",
@@ -293,5 +313,10 @@
     }
   ],
   "installed_scope": "verified local desktop/Codex runtime",
-  "runtime_skill_discovery_verified": true
+  "runtime_skill_discovery_verified": true,
+  "updated_at": "2026-10-04T19:03:30.044717+00:00",
+  "installed_policies_match_current": false,
+  "live_model_access": "BLOCKED_HTTP_403",
+  "p15_model_completions": 0,
+  "p15_planned_fixtures": 84
 }

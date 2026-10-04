@@ -45,7 +45,7 @@ Workspace admins can instead import this repository through the supported worksp
 | `validation` | Existing suite, report, changelog and preserved public evaluation history |
 | `scripts` | Package and evidence integrity verification |
 
-The skill bodies preserve full P10, Voice P13 and minimal P14 prompt bytes. The public evidence export omits private conversation URL metadata; response text, scoring and original local files remain unchanged.
+The skill bodies match the P15 canonical full, Voice and minimal prompts. P15 makes the existing per-structure Voice guard override the beginner-array sequence; it adds no teaching feature or state. The public evidence export omits private conversation URL metadata; response text, scoring and original local files remain unchanged.
 
 ## Verification and limits
 
@@ -55,8 +55,10 @@ python3 scripts/validate_package.py
 
 This verifies package paths, prompt identity, skill bodies, evidence parsing/scoring, file integrity and archive/publication boundaries. It does not establish installed activation, microphone timing or learning effectiveness.
 
-Three user-supplied P14 text outputs pass their triggered axes. Final-version coverage is incomplete, and Voice P13 X06 skips the required visibility confirmation for newly introduced B. The existing 40-response history and 74 retests span earlier versions and cannot be pooled into a current-version reliability estimate.
+Three user-supplied P14 text outputs pass their triggered axes. P13 X06 recorded a missing B visibility confirmation. P15 repairs its contradictory instructions, but current-version live model coverage remains unverified. The available model-service preflight returned HTTP 403 without producing a tutor response. The 84 P15 fixtures are planned cases, not executed passes. The existing 40-response history and 74 retests span earlier versions and cannot be pooled into a current-version reliability estimate.
 
 See [setup status](docs/SETUP_STATUS.md) for actual publication/installation evidence and the precise remaining platform limits.
 
-**NOT READY FOR HUMAN TRIAL** — unresolved Voice visibility behavior and incomplete final-version adherence coverage.
+See [P15 repair report](validation/SLATE_P15_REPAIR_REPORT_v0.2.md) for the source change, exact validation scope and blocked model access.
+
+**NOT READY FOR HUMAN TRIAL** — P15 live adherence coverage and normal ChatGPT/Voice activation/device behavior are unverified.

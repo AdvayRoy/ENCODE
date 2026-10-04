@@ -1,3 +1,9 @@
+# P15 installation refresh
+
+The installation record below describes the previously verified package. P15 source has since changed all three prompt wrappers. Matching the installed package to P15 is pending supported marketplace refresh and read-after-install verification; no current P15 model adherence is claimed.
+
+---
+
 # Slate Lang setup status
 
 Verified on 2026-10-04 under explicit authorization to publish and install.
