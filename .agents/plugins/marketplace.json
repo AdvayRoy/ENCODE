@@ -1,0 +1,15 @@
+{
+  "name": "encode",
+  "interface": {
+    "displayName": "ENCODE"
+  },
+  "plugins": [
+    {
+      "name": "slate-lang",
+      "source": {
+        "source": "local",
+        "path": "./plugins/slate-lang"
+      }
+    }
+  ]
+}

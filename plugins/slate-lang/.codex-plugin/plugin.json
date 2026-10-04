@@ -1,0 +1,13 @@
+{
+  "name": "slate-lang",
+  "version": "0.2.0",
+  "description": "Existing SLATE v0.2 tutoring instructions. Local validation candidate; RC1 is not frozen.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Slate Lang",
+    "shortDescription": "Existing SLATE tutoring protocols; validation candidate",
+    "longDescription": "Instruction-only package for the existing SLATE v0.2 text, Voice and minimal runtimes. Validation is incomplete; this package is not RC1 and makes no learning-efficacy claim.",
+    "developerName": "AdvayRoy",
+    "category": "Productivity"
+  }
+}

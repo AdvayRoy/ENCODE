@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "slate-lang",
+  "version": "0.2.0",
+  "description": "Existing SLATE v0.2 tutoring instructions. Local validation candidate; RC1 is not frozen."
+}

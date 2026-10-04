@@ -1,0 +1,17 @@
+{
+  "original_local_files_unchanged": true,
+  "original_sha256": {
+    "SLATE_RUNTIME_EVAL_v0.2.jsonl": "a4be1f9865e7e54992eac4d81e034ffc7051b629b491d09b9427813151eae7ed",
+    "SLATE_RUNTIME_VALIDATION_v0.2.jsonl": "794aa6fc4ab78a04ed09eb49f665b091f2e5adb769db684f86cd374a1e303d5d",
+    "SLATE_RUNTIME_MANUAL_EVAL_v0.2.jsonl": "1a2bca7f8b842592888e80b596fedbcc1bf8c6ab08cc64a526eddd8d6a12febf",
+    "SLATE_RUNTIME_MANUAL_SUITE_v0.2.jsonl": "bc0c8e7be73a0c076322a2967197098e73efca156ef6a29fcc2928bfb7e8bdd1"
+  },
+  "private_conversation_url_metadata_replaced_with_null": {
+    "SLATE_RUNTIME_EVAL_v0.2.jsonl": 39,
+    "SLATE_RUNTIME_VALIDATION_v0.2.jsonl": 113,
+    "SLATE_RUNTIME_MANUAL_EVAL_v0.2.jsonl": 0,
+    "SLATE_RUNTIME_MANUAL_SUITE_v0.2.jsonl": 0
+  },
+  "response_text_and_scoring_unchanged": true,
+  "source_scope": "40 historical, 74 direct retests, 3 manual responses; no human learning outcome"
+}

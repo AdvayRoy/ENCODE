@@ -1,0 +1,285 @@
+{
+  "created_at": "2026-10-04T18:26:46.291185+00:00",
+  "status": "PUBLISHED_VALIDATION_CANDIDATE; NOT_RC1",
+  "github_uploaded": "pending_verification",
+  "installed": "pending_verification",
+  "host_activation_verified": false,
+  "runtime_changed": false,
+  "educational_effectiveness": "NOT_TESTED",
+  "canonical_policies": {
+    "slate-text": {
+      "revision": "P10/full",
+      "sha256": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5"
+    },
+    "slate-voice": {
+      "revision": "P13/voice",
+      "sha256": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc"
+    },
+    "slate-minimal": {
+      "revision": "P14/minimal",
+      "sha256": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+    }
+  },
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "size": 225,
+      "sha256": "97f9d5839809e658e03984ca4598c95dee75b305c0383579939fc00bbaa0ec3f"
+    },
+    {
+      "path": ".gitignore",
+      "size": 47,
+      "sha256": "6e95b03a3bfb207ac7bbe6fa8091147e2f9d758ff66ed0f3fd2047fc9317c356"
+    },
+    {
+      "path": "README.md",
+      "size": 3460,
+      "sha256": "64ac6428525d97bb67dd4125bb3f489dbb68bebd2b518bad73067dea9ff80c2c"
+    },
+    {
+      "path": "language/v0.1/SLATE_v0.1_evaluation_suite.jsonl",
+      "size": 21467,
+      "sha256": "005bdb1dca876e17a993cc1ef929653bf1a5c9b16135c66478dfd38dc1a51738"
+    },
+    {
+      "path": "language/v0.1/SLATE_v0.1_system_prompt.txt",
+      "size": 15378,
+      "sha256": "00f6ea16dceaa87e7366405d0e74a62f5b8b9dc81649bab39d3e7a817fac6571"
+    },
+    {
+      "path": "language/v0.1/SLATE_v0.1_validation_notes.md",
+      "size": 2620,
+      "sha256": "779590bf5f7444638f41768d38435337a03f279f8e7adce93f98f0afdc54a944"
+    },
+    {
+      "path": "plugins/slate-lang/.codex-plugin/plugin.json",
+      "size": 587,
+      "sha256": "3c9791fbfa6d1b2b1c711d5582b89bae82b2ea8427a1fea6cdb037c540579e64"
+    },
+    {
+      "path": "plugins/slate-lang/plugin.json",
+      "size": 234,
+      "sha256": "1ea335ad31898972328fb5e5cca0f1d03b9193ca1c482f03d857af56d1df4653"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_MINIMAL_BOOT_v0.2.txt",
+      "size": 2206,
+      "sha256": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_REPAIR_PROTOCOL_v0.2.md",
+      "size": 9951,
+      "sha256": "72e6b98a5bd6b2b651a63987e21980b1896cba747afcbeec1c8ffa1b9b5ee38c"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_RUNTIME_PROMPT_v0.2.txt",
+      "size": 14042,
+      "sha256": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_RUNTIME_SPEC_v0.2.md",
+      "size": 20534,
+      "sha256": "41f54d887bd975e7b5021de93ae0614f19c0b145431255c7798f91b6c7f6e9f1"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_STATE_MACHINE_v0.2.md",
+      "size": 9300,
+      "sha256": "2ea1530626b5d10a58a0ac5770999b9f3aee09e2f07b7a37526686d9c9ed3b28"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_TEXT_RUNTIME_v0.2.md",
+      "size": 7605,
+      "sha256": "ad1f7e9ee1d18dca3b2da3f007634f50ce321c55bf376b9e504e86c126e24edf"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_VOICE_BOOT_v0.2.txt",
+      "size": 9156,
+      "sha256": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc"
+    },
+    {
+      "path": "plugins/slate-lang/references/SLATE_VOICE_RUNTIME_v0.2.md",
+      "size": 8621,
+      "sha256": "2409cb606471d9fabde275d288925aead4af6f6c21c515b07f28ae46feff53e1"
+    },
+    {
+      "path": "plugins/slate-lang/skills/slate-minimal/SKILL.md",
+      "size": 2429,
+      "sha256": "14c2e1f13738aedfd2584c3f9d595898d3e7e9ad517af24a4d39d3ec36a69914"
+    },
+    {
+      "path": "plugins/slate-lang/skills/slate-text/SKILL.md",
+      "size": 14293,
+      "sha256": "a9511281d623c150ff6365e8ceeb11a6f747d1ffb839e703303cf728e8dbc17a"
+    },
+    {
+      "path": "plugins/slate-lang/skills/slate-voice/SKILL.md",
+      "size": 9403,
+      "sha256": "50c31fa0a11992b1353548f3acf9dd8ac91ec0ba8c20c421372806d9b046248e"
+    },
+    {
+      "path": "research/ENCODE_scientific_foundation_v0.md",
+      "size": 112796,
+      "sha256": "2a1a5bd3e88d0802c601750bfc503fd0c6387558e7d2a9f1ea00643c621834a9"
+    },
+    {
+      "path": "research/ENCODE_scientific_foundation_v0.pdf",
+      "size": 263773,
+      "sha256": "59821e5a0ea7c9b7293fbedfb19481590b265c1eab8075e768120831f9530f83"
+    },
+    {
+      "path": "research/ENCODE_source_register.csv",
+      "size": 26072,
+      "sha256": "1b943b6d67195bbdb5b33e6849fc82b955b63dc0813da0099c8dc60f8a78b0e3"
+    },
+    {
+      "path": "research/SLATE_v0.1_language_specification.md",
+      "size": 125287,
+      "sha256": "b047424a1bbe4d67fb6e4fd72937bbc816c0b16ddc7a57e78d16b155a58d6a52"
+    },
+    {
+      "path": "research/SLATE_v0.1_language_specification.pdf",
+      "size": 236349,
+      "sha256": "c54a8830cc3da85e66bc5cc9bcca01fd193abc1384e88d00f7a496e5c02895b1"
+    },
+    {
+      "path": "research/SLATE_v0.1_reference_card.pdf",
+      "size": 65795,
+      "sha256": "90ad84857789e9f30eab44a352f4c4babc9296fa86e36fad1b0194e33e6c3274"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_DEMOS_v0.2.md",
+      "size": 19439,
+      "sha256": "2da3badef29f3af4157fee7e87305e8bc5a83e7b9a1120b805187519f63bf0d1"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_MINIMAL_BOOT_v0.2.txt",
+      "size": 2206,
+      "sha256": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_REPAIR_PROTOCOL_v0.2.md",
+      "size": 9951,
+      "sha256": "72e6b98a5bd6b2b651a63987e21980b1896cba747afcbeec1c8ffa1b9b5ee38c"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_RUNTIME_PROMPT_v0.2.txt",
+      "size": 14042,
+      "sha256": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_RUNTIME_SPEC_v0.2.md",
+      "size": 20534,
+      "sha256": "41f54d887bd975e7b5021de93ae0614f19c0b145431255c7798f91b6c7f6e9f1"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_STATE_MACHINE_v0.2.md",
+      "size": 9300,
+      "sha256": "2ea1530626b5d10a58a0ac5770999b9f3aee09e2f07b7a37526686d9c9ed3b28"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_TEXT_RUNTIME_v0.2.md",
+      "size": 7605,
+      "sha256": "ad1f7e9ee1d18dca3b2da3f007634f50ce321c55bf376b9e504e86c126e24edf"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_VOICE_BOOT_v0.2.txt",
+      "size": 9156,
+      "sha256": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc"
+    },
+    {
+      "path": "runtime/v0.2/SLATE_VOICE_RUNTIME_v0.2.md",
+      "size": 8621,
+      "sha256": "2409cb606471d9fabde275d288925aead4af6f6c21c515b07f28ae46feff53e1"
+    },
+    {
+      "path": "scripts/validate_package.py",
+      "size": 4403,
+      "sha256": "dfb698461b3b1f5d9d3cbe53f810d547b91e5f26fca0e001a2e71f954de42cbd"
+    },
+    {
+      "path": "validation/SLATE_RUNTIME_CHANGELOG_v0.2.md",
+      "size": 5488,
+      "sha256": "5ce35cd24246d571e6c3ab931ecb5869d8ed1aa279dd6f7800a4f1004d68fce3"
+    },
+    {
+      "path": "validation/SLATE_RUNTIME_MANUAL_STATUS_v0.2.md",
+      "size": 2295,
+      "sha256": "caef5d45cd4a5106f6b6dfc2b3df0b5c2510f25d4d8b055f2d19e3a62850ae4d"
+    },
+    {
+      "path": "validation/SLATE_RUNTIME_RC_RETEST_SUITE_v0.2.jsonl",
+      "size": 46083,
+      "sha256": "aec308888d18e9be24641dc0d27f3a9c8b3f1acb46bbf5cf547ec771d135e973"
+    },
+    {
+      "path": "validation/SLATE_RUNTIME_VALIDATION_REPORT_v0.2.md",
+      "size": 15461,
+      "sha256": "53cade01139c1b5cd2e825494a8c10f84d48d1a4ce16edc774415124c1409733"
+    },
+    {
+      "path": "validation/VALIDATION_STATUS.md",
+      "size": 875,
+      "sha256": "e238e523e58ba753499a492a2e0524caed09445c27f71c1275181f8d24a323fd"
+    },
+    {
+      "path": "validation/evidence/PUBLICATION_NOTES.json",
+      "size": 909,
+      "sha256": "6d644243112de9f9e2cfa0b033c9e28a06c30d58f69ffb9f68507533b7994f8a"
+    },
+    {
+      "path": "validation/evidence/SLATE_MANUAL_RESPONSE_01_Y00.md",
+      "size": 711,
+      "sha256": "981a0e7241ac40b6e8ebdafccb55c8b0655c091102d95d751d4d2a1cdc4fdf21"
+    },
+    {
+      "path": "validation/evidence/SLATE_MANUAL_RESPONSE_02_ACK.md",
+      "size": 291,
+      "sha256": "5863581c9982bd27403857e48f72571e8a4e12c4617af86af8fbd79baa26d890"
+    },
+    {
+      "path": "validation/evidence/SLATE_MANUAL_RESPONSE_03_Y01.md",
+      "size": 427,
+      "sha256": "a3b940d1913959a0721120049f615d82cbb51943347a45f64afb7da606b39e6f"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_ADHERENCE_SCORES_v0.2.csv",
+      "size": 39701,
+      "sha256": "9d8d4fe49d9ed2ea7eb43863fee308db817cab59afe29e895672b1136965786e"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_EVAL_v0.2.jsonl",
+      "size": 624032,
+      "sha256": "3a23f6002c62723e308aaf3fa0f6c94cc5e9a53331a05628d710109d915fb0e2"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MANUAL_EVAL_v0.2.jsonl",
+      "size": 13669,
+      "sha256": "1a2bca7f8b842592888e80b596fedbcc1bf8c6ab08cc64a526eddd8d6a12febf"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MANUAL_SCORES_v0.2.csv",
+      "size": 1667,
+      "sha256": "24e73299691d0a3fed6d8710ad0eded12cfd9a0f41389131c85526b6c4070bf7"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MANUAL_SUITE_v0.2.jsonl",
+      "size": 1963,
+      "sha256": "bc0c8e7be73a0c076322a2967197098e73efca156ef6a29fcc2928bfb7e8bdd1"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_MECHANICAL_CHECKS_v0.2.json",
+      "size": 521,
+      "sha256": "348ae6626727f762b7258e2cf4ff61814651a40462ba2a94c1c5aad432d04fd7"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_PACKET_CHECKS_v0.2.json",
+      "size": 684,
+      "sha256": "911b29f373dfb0e3516f1572239ef36280154e6fc03d8718680d21761d6e3e28"
+    },
+    {
+      "path": "validation/evidence/SLATE_RUNTIME_VALIDATION_v0.2.jsonl",
+      "size": 1749184,
+      "sha256": "f85a6d04a09bdd0df7bab62bc4f24ead0d2a2beea0dec569e37034187632a47d"
+    }
+  ]
+}

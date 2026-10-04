@@ -1,0 +1,24 @@
+{
+  "java": {
+    "compile": "PASS --release 21",
+    "stdout": [
+      "21",
+      "6",
+      "5",
+      "16",
+      "16",
+      "0"
+    ],
+    "scope": "Corrected syntax, selected initialized component, aliasing, descending loop and default-zero keys; not compilation of intentionally faulty headers or learner code."
+  },
+  "math": {
+    "PED_signed_keys": [
+      -3,
+      -3
+    ],
+    "linear_equation_x": 6,
+    "both_red": "5/14",
+    "same_colour_N20": "14/45"
+  },
+  "educational_effectiveness": "NOT TESTED"
+}

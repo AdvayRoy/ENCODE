@@ -1,0 +1,17 @@
+{
+  "status": "PASS (artifact integrity only)",
+  "release": "VALIDATION HOLD \u2014 RC1 NOT FROZEN",
+  "assessments": 114,
+  "axes_per_assessment": 16,
+  "new_input_hash_mismatches": 0,
+  "original_history_preserved": true,
+  "current_prompt_copies_match": true,
+  "manifest_files": 18,
+  "archive_crc": "PASS",
+  "archive_sha256": "6e3d7195f53b941cb06f5a07cd576ed850095bb68bed17ba2edd62090662d632",
+  "current_prompt_hashes": {
+    "full": "daf8c4de088b5078d0c764afc4fa49d5e9496bd201cd4c74df0c6c19e435dde5",
+    "voice_boot": "4b9d77f43f3d15de8fc8b5ece685aff8f2ccb223fef3e8b83071a447749e61dc",
+    "minimal": "9a866b5f83740966528728d78bed4c2f9b2e5b0d3e9e46708992cb4abfb92759"
+  }
+}
